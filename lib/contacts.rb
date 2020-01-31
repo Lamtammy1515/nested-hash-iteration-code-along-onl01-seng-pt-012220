@@ -20,5 +20,9 @@ contacts.each do |person, data|
        
     if attribute == :favorite_ice_cream_flavors
       value.each do |flavor|
-       
+       puts "#{flavor}"
+      end
+    end
+  end
+end
 end
